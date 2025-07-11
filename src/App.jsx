@@ -11,7 +11,7 @@ function App() {
         <p className="amount">₹ {amount}</p>
         <div className="buttons">
           <button onClick={() => setAmount(amount - 1)} className="minus">–</button>
-        <button onClick={() => setAmount(0)} className="reset">R</button>
+          <button onClick={() => setAmount(0)} className="reset">R</button>
           <button onClick={() => setAmount(amount + 1)} className="plus">+</button>
         </div>
       </div>
